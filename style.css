@@ -35,22 +35,23 @@ body{
     border: none;
     border-radius: 10px;
     color:white; 
+    transition: background-color 0.5s,ease;
 }
 #startBtn{
     background-color:green;
 }
 #startBtn:hover{
-    background-color:hsl(129, 89%, 40%)
+    background-color:hsl(129, 89%, 40%);
 }
 #stopBtn{
-    background-color:rgb(184, 25, 25);
+    background-color:red;
 }
 #stopBtn:hover{
-    background-color:hsl(4, 100%, 39%)
+    background-color:hsl(10, 82%, 31%);
 }
 #resetBtn{
-    background-color:rgb(46, 143, 160);
+    background-color:hsl(232, 58%, 23%);
 }
 #resetBtn:hover{
-    background-color:hsl(188, 60%, 46%)
+    background-color:hsl(188, 60%, 46%);
 }
